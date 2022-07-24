@@ -13,7 +13,9 @@ namespace parto_project
         private List<RichTextBox> textBoxes = new List<RichTextBox>();
         private void Initialiver(int number , string[] colors)
         {
-            for(int i =0; i < number; i++)
+            this.btnstart.Location = new Point(125, 300 * number + 21);
+            this.btnStop.Location = new Point(180, 300 * number + 21);
+            for (int i =0; i < number; i++)
             {
                 this.textBoxes.Add(new RichTextBox());
                 this.textBoxes[i].Name = $"txtbox{i}";
