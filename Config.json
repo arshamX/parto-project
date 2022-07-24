@@ -1,0 +1,6 @@
+{
+    "Colors":"red,blue",
+    "ChanelLabel":"Parto Dade",
+    "NumberOfChanels" : "2",
+    "UdpPort" : "5000"
+}

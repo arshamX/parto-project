@@ -1,0 +1,14 @@
+C:\Users\arash\Desktop\parto project\parto project\bin\Debug\parto project.exe.config
+C:\Users\arash\Desktop\parto project\parto project\bin\Debug\parto project.exe
+C:\Users\arash\Desktop\parto project\parto project\bin\Debug\parto project.pdb
+C:\Users\arash\Desktop\parto project\parto project\obj\Debug\parto project.csproj.AssemblyReference.cache
+C:\Users\arash\Desktop\parto project\parto project\obj\Debug\parto project.csproj.SuggestedBindingRedirects.cache
+C:\Users\arash\Desktop\parto project\parto project\obj\Debug\parto_project.Properties.Resources.resources
+C:\Users\arash\Desktop\parto project\parto project\obj\Debug\parto project.csproj.GenerateResource.cache
+C:\Users\arash\Desktop\parto project\parto project\obj\Debug\parto project.csproj.CoreCompileInputs.cache
+C:\Users\arash\Desktop\parto project\parto project\obj\Debug\parto project.exe
+C:\Users\arash\Desktop\parto project\parto project\obj\Debug\parto project.pdb
+C:\Users\arash\Desktop\parto project\parto project\obj\Debug\parto_project.Form1.resources
+C:\Users\arash\Desktop\parto project\parto project\bin\Debug\Newtonsoft.Json.dll
+C:\Users\arash\Desktop\parto project\parto project\bin\Debug\Newtonsoft.Json.xml
+C:\Users\arash\Desktop\parto project\parto project\obj\Debug\parto project.csproj.CopyComplete
