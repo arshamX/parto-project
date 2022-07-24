@@ -94,10 +94,13 @@ namespace parto_project
         private void timer1_Tick(object sender, EventArgs e)
         {
             Data[] datas;
-            received.TryDequeue(out datas);
-            for(int i = 0;i < config.NumberOfChanels; i++)
+            bool flag = received.TryDequeue(out datas);
+            if(flag)
             {
-                this.textBoxes[i].Text = $"{datas[i].Name} \n \"RADIO_TYPE\":\"{datas[i].RADIO_TYPE}\"  \"RCC_SERVER_PORT\":\"{datas[i].RCC_SERVER_PORT}\"\n\"MUTE_DURATION_SECONDS\":\"{datas[i].MUTE_DURATION_SECONDS}\"    \"IS_VAD_ACTIVE\":\"{datas[i].IS_VAD_ACTIVE}\"";
+                for (int i = 0; i < config.NumberOfChanels; i++)
+                {
+                    this.textBoxes[i].Text = $"{datas[i].Name} \n \"RADIO_TYPE\":\"{datas[i].RADIO_TYPE}\"  \"RCC_SERVER_PORT\":\"{datas[i].RCC_SERVER_PORT}\"\n\"MUTE_DURATION_SECONDS\":\"{datas[i].MUTE_DURATION_SECONDS}\"    \"IS_VAD_ACTIVE\":\"{datas[i].IS_VAD_ACTIVE}\"";
+                }
             }
         }
     }
